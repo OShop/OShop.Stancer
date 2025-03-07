@@ -1,0 +1,27 @@
+﻿@model OShop.Stancer.Models.StancerSettings
+
+@{
+    Layout.Title = T("Stancer Settings");
+}
+
+@using (Html.BeginFormAntiForgeryPost()) {
+    @Html.ValidationSummary()
+    <fieldset>
+        <legend>@T("Stancer Account")</legend>
+        <div>
+            @Html.LabelFor(m => m.PublicKey, T("Public Key"))
+            @Html.TextBoxFor(m => m.PublicKey, new { @class = "text medium" })
+            @Html.ValidationMessageFor(m => m.PublicKey, "*")
+        </div>
+        <div>
+            @Html.LabelFor(m => m.PrivateKey, T("Private Key"))
+            @Html.TextBoxFor(m => m.PrivateKey, new { type = "password", @class = "text medium" })
+            @Html.ValidationMessageFor(m => m.PrivateKey, "*")
+        </div>
+    </fieldset>
+
+    <div>
+        <button type="submit" name="submit.Validate" value="validate">@T("Validate credentials")</button>
+        <button type="submit" name="submit.Save" value="create">@T("Save")</button>
+    </div>
+}

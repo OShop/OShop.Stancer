@@ -1,0 +1,9 @@
+﻿Name: OShop Stancer
+AntiForgery: enabled
+Author: Codinlab
+Website: https://github.com/OShop/OShop.Stancer
+Version: 1.0
+OrchardVersion: 1.10
+Description: Stancer payment for OShop.
+Dependencies: OShop, OShop.Payment
+Category: Commerce

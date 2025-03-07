@@ -1,0 +1,161 @@
+#: OShop.Stancer.Controllers.AdminController
+
+#. "Not allowed to manage Shop Settings"
+msgctxt OShop.Stancer.Controllers.AdminController
+msgid "Not allowed to manage Shop Settings"
+msgstr "Vous n'êtes pas autorisé à gérer les paramètres de la boutique"
+
+#: OShop.Stancer.Controllers.AdminController
+msgctxt OShop.Stancer.Controllers.AdminController
+msgid "Stancer Settings saved successfully."
+msgstr "Paramètres Stancer enregistrés avec succès."
+
+#: OShop.Stancer.Controllers.AdminController
+msgctxt OShop.Stancer.Controllers.AdminController
+msgid "Could not save Stancer Settings."
+msgstr "Impossible d'enregistrer les paramètres Stancer."
+
+#: OShop.Stancer.Controllers.AdminController
+msgctxt OShop.Stancer.Controllers.AdminController
+msgid "Valid credentials."
+msgstr "Authentification valide."
+
+#: OShop.Stancer.Controllers.AdminController
+msgctxt OShop.Stancer.Controllers.AdminController
+msgid "Invalid credentials."
+msgstr "Authentification invalide."
+
+#: OShop.Stancer.Controllers.AdminController
+msgctxt OShop.Stancer.Controllers.AdminController
+msgid "Could not validate credentials."
+msgstr "Impossible de valider l'authentification."
+
+#: OShop.Stancer.Controllers.PaymentController
+msgctxt OShop.Stancer.Controllers.PaymentController
+msgid "Nothing left to pay on this document."
+msgstr "Il ne reste plus rien à régler sur ce document."
+
+#: OShop.Stancer.Controllers.PaymentController
+msgctxt OShop.Stancer.Controllers.PaymentController
+msgid "Order {0}"
+msgstr "Commande {0}"
+
+#: OShop.Stancer.Controllers.PaymentController
+msgctxt OShop.Stancer.Controllers.PaymentController
+msgid "Payment creation failed."
+msgstr "Création du paiement échouée."
+
+#: OShop.Stancer.Controllers.PaymentController
+
+#. "We are encountering issues with Stancer service."
+msgctxt OShop.Stancer.Controllers.PaymentController
+msgid "We are encountering issues with Stancer service."
+msgstr "Nous rencontrons des difficultés avec le service Stancer."
+
+#: OShop.Stancer.Controllers.PaymentController
+msgctxt OShop.Stancer.Controllers.PaymentController
+msgid "Your payment was successfully registered."
+msgstr "Votre paiement a été enregistré avec succès."
+
+#: OShop.Stancer.Controllers.PaymentController
+
+#. "We were unable to execute your payment."
+msgctxt OShop.Stancer.Controllers.PaymentController
+msgid "We were unable to execute your payment."
+msgstr "Nous n'avons pas été en mesure d'exécuter votre paiement."
+
+#: OShop.Stancer.Controllers.PaymentController
+msgctxt OShop.Stancer.Controllers.PaymentController
+msgid "Your payment has been canceled."
+msgstr "Votre paiement a été annulé."
+
+#: OShop.Stancer.Navigation.AdminMenu
+msgctxt OShop.Stancer.Navigation.AdminMenu
+msgid "OShop"
+msgstr "OShop"
+
+#: OShop.Stancer.Navigation.AdminMenu
+msgctxt OShop.Stancer.Navigation.AdminMenu
+msgid "Settings"
+msgstr "Paramètres"
+
+#: OShop.Stancer.Navigation.AdminMenu
+msgctxt OShop.Stancer.Navigation.AdminMenu
+msgid "Stancer"
+msgstr "Stancer"
+
+#: OShop.Stancer.Services.StancerApiService
+
+#. "Ping failed."
+msgctxt OShop.Stancer.Services.StancerApiService
+msgid "Ping failed."
+msgstr "Ping échoué."
+
+#: OShop.Stancer.Services.StancerApiService
+
+#. "Payment creation failed."
+msgctxt OShop.Stancer.Services.StancerApiService
+msgid "Payment creation failed."
+msgstr "Création du paiement échouée."
+
+#: OShop.Stancer.Services.StancerApiService
+
+#. "Payment execution failed."
+msgctxt OShop.Stancer.Services.StancerApiService
+msgid "Payment retrieval failed."
+msgstr "Récupération du paiement échouée."
+
+#: OShop.Stancer.Services.StancerApiService
+
+#. "Payment execution failed."
+msgctxt OShop.Stancer.Services.StancerApiService
+msgid "Payment capture failed."
+msgstr "Capture du paiement échouée."
+
+#: OShop.Stancer.Services.StancerApiService
+
+#. "Web profile creation failed."
+msgctxt OShop.Stancer.Services.StancerApiService
+msgid "Web profile creation failed."
+msgstr "Création profil web échouée."
+
+#: OShop.Stancer.Services.StancerPaymentProvider
+msgctxt OShop.Stancer.Services.StancerPaymentProvider
+msgid "Stancer"
+msgstr "Carte bancaire"
+
+#: OShop.Stancer.Services.StancerPaymentProvider
+msgctxt OShop.Stancer.Services.StancerPaymentProvider
+msgid "Pay with your credit card"
+msgstr "Régler avec votre carte bancaire"
+
+#: ~/Modules/OShop.Stancer/Views/Admin/Settings.cshtml
+msgctxt ~/Modules/OShop.Stancer/Views/Admin/Settings.cshtml
+msgid "Stancer Settings"
+msgstr "Paramètre Stancer"
+
+#: ~/Modules/OShop.Stancer/Views/Admin/Settings.cshtml
+msgctxt ~/Modules/OShop.Stancer/Views/Admin/Settings.cshtml
+msgid "Stancer Account"
+msgstr "Compte Stancer"
+
+#: ~/Modules/OShop.Stancer/Views/Admin/Settings.cshtml
+msgctxt ~/Modules/OShop.Stancer/Views/Admin/Settings.cshtml
+msgid "Public Key"
+msgstr "Clé Publique"
+
+#: ~/Modules/OShop.Stancer/Views/Admin/Settings.cshtml
+msgctxt ~/Modules/OShop.Stancer/Views/Admin/Settings.cshtml
+msgid "Private Key"
+msgstr "Clé Privée"
+
+#: ~/Modules/OShop.Stancer/Views/Admin/Settings.cshtml
+msgctxt ~/Modules/OShop.Stancer/Views/Admin/Settings.cshtml
+msgid "Validate credentials"
+msgstr "Valider les paramètres d'authentification"
+
+#: ~/Modules/OShop.Stancer/Views/Admin/Settings.cshtml
+msgctxt ~/Modules/OShop.Stancer/Views/Admin/Settings.cshtml
+msgid "Save"
+msgstr "Enregistrer"
+
