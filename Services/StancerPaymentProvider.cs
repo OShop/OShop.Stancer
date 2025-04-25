@@ -13,7 +13,7 @@ namespace OShop.Stancer.Services {
         public Localizer T { get; set; }
 
         public int Priority {
-            get { return 50; }
+            get { return 55; }
         }
 
         public string Name {
